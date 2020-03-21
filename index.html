@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A web application capable of retrieving live weather data across the World.">
+	<meta name="keywords" content="Giordan, Andrew, weather, wizard">
+	<meta name="author" content="Giordan Andrew">
+	<link rel="icon" href="images/umbrella.png">
+	<title>Weather Wizard</title>
+	
+	<!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/f3da30bb5f.js" crossorigin="anonymous"></script>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+	<!-- Bootstrap Scripts -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+
+			<form class="contact100-form validate-form" action="/" method="post">
+				<span class="form-title">Weather Wizard</span>
+				<p class="form-description">A web application capable of retrieving live weather data across the World.</p>
+
+				<div class="changeable-content">
+						<div class="wrap-input100 rs1-wrap-input100">
+							<label class="label-input100" for="city">Enter City *</label>
+							<input class="input100" type="text" name="city" placeholder="E.g Toronto">
+						</div>
+
+						<div class="wrap-input100 rs1-wrap-input100">
+							<label for="countryCode" class="label-input100">Enter Country Code </label>
+							<input class="input100" type="text" name="countryCode" placeholder="E.g CA">
+						</div>
+
+						<div class="wrap-input100 rs1-wrap-input100">
+							<p class="form-note"><strong class="underline">Note</strong>: Use the </p>
+							<a class="form-url" href="https://www.iso.org/iso-3166-country-codes.html">ISO 3166 country codes</a>
+						</div>
+
+						<div class="container-btn">
+							<div class="wrap-btn">
+								<div class="contact100-form-bgbtn"></div>
+								<button class="btn" type="submit">Submit</button>
+							</div>
+						</div>
+				</div>
+
+			</form>
+		</div>
+
+	</div>
+<script src="scripts/index.js" type="text/javascript"></script>
+
+</body>
+</html>
